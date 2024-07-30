@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>My Weblog</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/profile.jpg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#banner">خانه</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#myProject">رزومه</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#progresses">مهارت ها</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer-form">تماس</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="banner" id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex img-prof col-md-6">
+              <img src="images/profile.jpg" alt="" class="img-prof img-fluid">
+          </div>
+          <div class="intro col-md-6" >
+            <div class="sign">
+              <span class="fast-flicker">امیر</span>محمد<span class="flicker">حاجی گل<br>برنامه نویس وب</span>
+            </div>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
+              متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+              کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده،
+              شناخت فراوان جامعه و متخصصان را می طلبد
+            </p>
+            <div class="social-btn">
+              <button class="btn-101">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <svg>
+                  <defs>
+                    <filter id="glow">
+                      <fegaussianblur result="coloredBlur" stddeviation="5"></fegaussianblur>
+                      <femerge>
+                        <femergenode in="coloredBlur"></femergenode>
+                        <femergenode in="coloredBlur"></femergenode>
+                        <femergenode in="coloredBlur"></femergenode>
+                        <femergenode in="SourceGraphic"></femergenode>
+                      </femerge>
+                    </filter>
+                  </defs>
+                  <rect />
+                </svg>
+               </button>   
+              <button class="btn-101">
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <svg>
+                  <defs>
+                    <filter id="glow">
+                      <fegaussianblur result="coloredBlur" stddeviation="5"></fegaussianblur>
+                      <femerge>
+                        <femergenode in="coloredBlur"></femergenode>
+                        <femergenode in="coloredBlur"></femergenode>
+                        <femergenode in="coloredBlur"></femergenode>
+                        <femergenode in="SourceGraphic"></femergenode>
+                      </femerge>
+                    </filter>
+                  </defs>
+                  <rect />
+                </svg>
+              </button>   
+              <button class="btn-101">
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <svg>
+                  <defs>
+                    <filter id="glow">
+                      <fegaussianblur result="coloredBlur" stddeviation="5"></fegaussianblur>
+                      <femerge>
+                        <femergenode in="coloredBlur"></femergenode>
+                        <femergenode in="coloredBlur"></femergenode>
+                        <femergenode in="coloredBlur"></femergenode>
+                        <femergenode in="SourceGraphic"></femergenode>
+                      </femerge>
+                    </filter>
+                  </defs>
+                  <rect />
+                </svg>
+              </button>
+              <button class="btn-101">
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <svg>
+                  <defs>
+                    <filter id="glow">
+                      <fegaussianblur result="coloredBlur" stddeviation="5"></fegaussianblur>
+                      <femerge>
+                        <femergenode in="coloredBlur"></femergenode>
+                        <femergenode in="coloredBlur"></femergenode>
+                        <femergenode in="coloredBlur"></femergenode>
+                        <femergenode in="SourceGraphic"></femergenode>
+                      </femerge>
+                    </filter>
+                  </defs>
+                  <rect />
+                </svg>
+              </button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+   
+    <section class="myProject" id="myProject">
+      <div class="container">
+        <h3 class="title">رزومه و نمونه کارها</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/web1.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/web2.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/web3.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/web4.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/web5.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/web6.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="progresses" id="progresses">
+      <div class="container container-progress">
+        <h3 class="title">مهارت ها</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="skill">
+              <span>Html</span>
+              <div class="progress">
+                <div class="skill-progress" data-value="90%" style="width:90%">90%</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="skill">
+              <span>Css</span>
+              <div class="progress">
+                <div class="skill-progress" data-value="90%" style="width:90%">90%</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="skill">
+              <span>C++</span>
+              <div class="progress">
+                <div class="skill-progress" data-value="90%" style="width:90%">90%</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="skill">
+              <span>Qt</span>
+              <div class="progress">
+                <div class="skill-progress" data-value="70%" style="width:70%">70%</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="skill">
+              <span>php</span>
+              <div class="progress">
+                <div class="skill-progress" data-value="50%" style="width:50%">50%</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="skill">
+              <span>Sql</span>
+              <div class="progress">
+                <div class="skill-progress" data-value="60%" style="width:60%">60%</div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section class="footer-form" id="footer-form">
+      <div class="container container-footer">
+        <h3 class="title">ارتباط با من</h3>
+        <div class="row" style="border: 1px solid;padding: 20px;">
+          <div class="col-md-6">
+            <div class="img-form d-flex">
+              <img src="images/InShot_۲۰۲۳۰۷۲۴_۱۳۴۹۴۳۹۵۳.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-6 form-input">
+            <form>
+              <div class="mb-3">
+                <label class="form-label">نام ونام خانوادگی</label>
+                <input type="text" class="form-control">
+              </div>
+              <div  class="mb-3">
+                <label class="form-label">ایمیل</label>
+                <input type="email" class="form-control">
+              </div>
+              <div class="mb-3">
+                <label  class="form-label">موضوع</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="mb-3">
+                <label  class="form-label">متن پیام</label>
+                <textarea class="form-control"  rows="6"></textarea>
+              </div>
+              <div class="d-flex" style="justify-content: center;">
+                <button type="submit" class="btn btn-success form-btn">بفرست</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+  
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
+
+
+
+
